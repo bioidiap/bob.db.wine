@@ -62,7 +62,6 @@ def data():
   retval = {}
   with open(data, 'rb') as csvfile:
     for row in csv.reader(csvfile):
-      print row
       name = 'wine' + row[0][:].lower()
       retval.setdefault(name, []).append([float(k) for k in row[1:14]])
 

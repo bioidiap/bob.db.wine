@@ -75,7 +75,7 @@ setup(
 
       # bob unittest declaration
       'bob.test': [
-         'wine = xbob.db.wine.test:WineTest',
+         'wine = xbob.db.wine.test:WineDatabaseTests',
          ],
       },
 

@@ -11,7 +11,7 @@ There are a few ways to achieve this:
 
 1. You can add this package as a requirement at the ``setup.py`` for your own
    `satellite package
-   <https://github.com/idiap/bob/wiki/Virtual-Work-Environments-with-Buildout>`_
+   <https://github.com/bioidiap/bob/wiki/Virtual-Work-Environments-with-Buildout>`_
    or to your Buildout ``.cfg`` file, if you prefer it that way. With this
    method, this package gets automatically downloaded and installed on your
    working environment, or
@@ -24,7 +24,7 @@ The package is available in two different distribution formats:
 1. You can download it from `PyPI <http://pypi.python.org/pypi>`_, or
 
 2. You can download it in its source form from `its git repository
-   <https://github.com/idiap/xbob.db.wine>`_. When you download the
+   <https://github.com/bioidiap/xbob.db.wine>`_. When you download the
    version at the git repository, you will need to run a command to recreate
    the backend SQLite file required for its operation. This means that the
    database raw files must be installed somewhere in this case. With option
@@ -67,6 +67,6 @@ lines::
          xbob.db.wine
 
   [sources]
-  xbob.db.wine = git https://github.com/idiap/xbob.db.wine.git
+  xbob.db.wine = git https://github.com/bioidiap/xbob.db.wine.git
   ...
 

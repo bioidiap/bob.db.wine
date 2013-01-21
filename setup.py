@@ -14,7 +14,7 @@ setup(
     name='xbob.db.wine',
     version='1.0.0',
     description='Wine Database for bob',
-    url='http://github.com/idiap/xbob.db.wine',
+    url='http://github.com/bioidiap/xbob.db.wine',
     license='GPLv3',
     author='Laurent El Shafey',
     author_email='laurent.el-shafey@idiap.ch',

@@ -12,7 +12,7 @@ setup(
     # This is the basic information about your project. Modify all this
     # information before releasing code publicly.
     name='xbob.db.wine',
-    version='1.0.0',
+    version='1.0.1',
     description='Wine Database for bob',
     url='http://github.com/bioidiap/xbob.db.wine',
     license='GPLv3',
@@ -37,7 +37,7 @@ setup(
       'bob', # base signal proc./machine learning library
     ],
 
-    # Your project should be called something like 'xbob.<foo>' or 
+    # Your project should be called something like 'xbob.<foo>' or
     # 'xbob.<foo>.<bar>'. To implement this correctly and still get all your
     # packages to be imported w/o problems, you need to implement namespaces
     # on the various levels of the package and declare them here. See more

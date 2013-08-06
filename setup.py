@@ -12,7 +12,7 @@ setup(
     # This is the basic information about your project. Modify all this
     # information before releasing code publicly.
     name='xbob.db.wine',
-    version='1.0.3',
+    version='1.0.4a0',
     description='Wine Database for bob',
     url='http://github.com/bioidiap/xbob.db.wine',
     license='GPLv3',

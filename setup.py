@@ -26,7 +26,7 @@ setup(
     # This is the basic information about your project. Modify all this
     # information before releasing code publicly.
     name='xbob.db.wine',
-    version='1.0.4',
+    version='1.0.5a0',
     description='Wine Database for bob',
     url='https://pypi.python.org/pypi/xbob.db.wine',
     license='GPLv3',

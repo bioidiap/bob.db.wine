@@ -2,6 +2,20 @@
 # vim: set fileencoding=utf-8 :
 # Laurent El Shafey <Laurent.El-Shafey@idiap.ch>
 # Sun 20 Jan 18:22:00 2013 CEST
+#
+# Copyright (C) 2011-2013 Idiap Research Institute, Martigny, Switzerland
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, version 3 of the License.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 from setuptools import setup, find_packages
 
@@ -12,11 +26,12 @@ setup(
     # This is the basic information about your project. Modify all this
     # information before releasing code publicly.
     name='xbob.db.wine',
-    version='1.0.4a0',
+    version='1.0.4',
     description='Wine Database for bob',
-    url='http://github.com/bioidiap/xbob.db.wine',
+    url='https://pypi.python.org/pypi/xbob.db.wine',
     license='GPLv3',
     author='Laurent El Shafey',
+    keywords='classification, bob, xbob, xbob.db, wine',
     author_email='laurent.el-shafey@idiap.ch',
 
     # If you have a better, long description of your package, place it on the
@@ -84,8 +99,11 @@ setup(
     # PyPI. You can find the complete list of classifiers that are valid and
     # useful here (http://pypi.python.org/pypi?%3Aaction=list_classifiers).
     classifiers = [
-      'Development Status :: 4 - Beta',
+      'Development Status :: 5 - Production/Stable',
+      'Environment :: Console',
       'Intended Audience :: Developers',
+      'Intended Audience :: Education',
+      'Intended Audience :: Science/Research',
       'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
       'Natural Language :: English',
       'Programming Language :: Python',

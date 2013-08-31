@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# vim: set fileencoding=utf-8 :
 # Laurent El Shafey <Laurent.El-Shafey@idiap.ch>
 # Sun 20 Jan 19:02:00 2013 CEST
 #

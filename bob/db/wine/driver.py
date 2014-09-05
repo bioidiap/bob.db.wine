@@ -45,8 +45,8 @@ class Interface(AbstractInterface):
     '''Returns the current version number from Bob's build'''
 
     import pkg_resources  # part of setuptools
-    version = pkg_resources.require('bob')[0].version
-    return version + ' (built-in)'
+    version = pkg_resources.require("bob.db.wine")[0].version
+    return version
 
   def type(self):
     '''Returns the type of auxiliary files you have for this database

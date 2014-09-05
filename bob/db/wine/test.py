@@ -20,15 +20,14 @@
 """
 
 import unittest
-from . import *
+import bob.db.wine
 
-class WineDatabaseTests(unittest.TestCase):
 
-  def test01_wine(self):
-    self.assertEqual(len(names), 13)
-    wdict = data()
-    self.assertEqual(len(wdict), 3)
-    self.assertEqual(len(wdict['wine1']), 59)
-    self.assertEqual(len(wdict['wine2']), 71)
-    self.assertEqual(len(wdict['wine3']), 48)
+def test_wine():
+  assert len(bob.db.wine.names) == 13
+  wdict = bob.db.wine.data()
+  assert len(wdict) == 3
+  assert len(wdict['wine1']) == 59
+  assert len(wdict['wine2']) == 71
+  assert len(wdict['wine3']) == 48
 

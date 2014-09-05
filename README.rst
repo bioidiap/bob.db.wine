@@ -1,9 +1,24 @@
+.. vim: set fileencoding=utf-8 :
+.. Manuel Guenther <manuel.guenther@idiap.ch>
+.. Thu Sep  4 11:35:05 CEST 2014
+
+.. image:: https://travis-ci.org/bioidiap/bob.db.wine.svg?branch=master
+   :target: https://travis-ci.org/bioidiap/bob.db.wine
+.. image:: https://coveralls.io/repos/bioidiap/bob.db.wine/badge.png
+   :target: https://coveralls.io/r/bioidiap/bob.db.wine
+.. image:: http://img.shields.io/github/tag/bioidiap/bob.db.wine.png
+   :target: https://github.com/bioidiap/bob.db.wine
+.. image:: http://img.shields.io/pypi/v/bob.db.wine.png
+   :target: https://pypi.python.org/pypi/bob.db.wine
+.. image:: http://img.shields.io/pypi/dm/bob.db.wine.png
+   :target: https://pypi.python.org/pypi/bob.db.wine
+
 ===============
  Wine Database
 ===============
 
-This package contains the database and API for the `Wine Database 
-<http://archive.ics.uci.edu/ml/datasets/Wine>`_. 
+This package contains the database and API for the `Wine Database
+<http://archive.ics.uci.edu/ml/datasets/Wine>`_.
 
 You would normally not install this package unless you are maintaining it. What
 you would do instead is to tie it in at the package you need to **use** it.
@@ -24,7 +39,7 @@ The package is available in two different distribution formats:
 1. You can download it from `PyPI <http://pypi.python.org/pypi>`_, or
 
 2. You can download it in its source form from `its git repository
-   <https://github.com/bioidiap/xbob.db.wine>`_. When you download the
+   <https://github.com/bioidiap/bob.db.wine>`_. When you download the
    version at the git repository, you will need to run a command to recreate
    the backend SQLite file required for its operation. This means that the
    database raw files must be installed somewhere in this case. With option
@@ -44,11 +59,11 @@ script)::
 
     install_requires=[
       ...
-      "xbob.db.wine",
+      "bob.db.wine",
     ],
 
 Proceed normally with your ``boostrap/buildout`` steps and you should be all
-set. That means you can now import the ``xbob.db.wine`` namespace into your scripts.
+set. That means you can now import the ``bob.db.wine`` namespace into your scripts.
 
 Modify your buildout.cfg and download from git
 ==============================================
@@ -64,9 +79,9 @@ lines::
   auto-checkout = *
   eggs = bob
          ...
-         xbob.db.wine
+         bob.db.wine
 
   [sources]
-  xbob.db.wine = git https://github.com/bioidiap/xbob.db.wine.git
+  bob.db.wine = git https://github.com/bioidiap/bob.db.wine.git
   ...
 

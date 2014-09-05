@@ -25,13 +25,13 @@ setup(
 
     # This is the basic information about your project. Modify all this
     # information before releasing code publicly.
-    name='xbob.db.wine',
-    version='1.0.5a0',
+    name='bob.db.wine',
+    version='2.0.0a0',
     description='Wine Database for bob',
-    url='https://pypi.python.org/pypi/xbob.db.wine',
+    url='https://pypi.python.org/pypi/bob.db.wine',
     license='GPLv3',
     author='Laurent El Shafey',
-    keywords='classification, bob, xbob, xbob.db, wine',
+    keywords='classification, bob, bob.db, wine',
     author_email='laurent.el-shafey@idiap.ch',
 
     # If you have a better, long description of your package, place it on the
@@ -50,11 +50,11 @@ setup(
     # privileges when using buildout.
     install_requires=[
       'setuptools',
-      'bob', # base signal proc./machine learning library
+      'bob.db.base',
     ],
 
-    # Your project should be called something like 'xbob.<foo>' or
-    # 'xbob.<foo>.<bar>'. To implement this correctly and still get all your
+    # Your project should be called something like 'bob.<foo>' or
+    # 'bob.<foo>.<bar>'. To implement this correctly and still get all your
     # packages to be imported w/o problems, you need to implement namespaces
     # on the various levels of the package and declare them here. See more
     # about this here:
@@ -64,8 +64,8 @@ setup(
     # using several layers. You can check them out here:
     # https://github.com/idiap/bob/wiki/Satellite-Packages
     namespace_packages = [
-      'xbob',
-      'xbob.db',
+      'bob',
+      'bob.db',
     ],
 
     # This entry defines which scripts you will have inside the 'bin' directory
@@ -86,20 +86,16 @@ setup(
 
       # bob database declaration
       'bob.db': [
-        'wine = xbob.db.wine.driver:Interface',
-        ],
+        'wine = bob.db.wine.driver:Interface',
+      ],
 
-      # bob unittest declaration
-      'bob.test': [
-         'wine = xbob.db.wine.test:WineDatabaseTests',
-         ],
       },
 
     # Classifiers are important if you plan to distribute this package through
     # PyPI. You can find the complete list of classifiers that are valid and
     # useful here (http://pypi.python.org/pypi?%3Aaction=list_classifiers).
     classifiers = [
-      'Development Status :: 5 - Production/Stable',
+      'Development Status :: 4 - Beta',
       'Environment :: Console',
       'Intended Audience :: Developers',
       'Intended Audience :: Education',

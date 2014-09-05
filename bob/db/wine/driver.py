@@ -21,22 +21,22 @@
 """Interface definition for Bob's database driver
 """
 
-from bob.db.driver import Interface as AbstractInterface
+from bob.db.base.driver import Interface as AbstractInterface
 
 class Interface(AbstractInterface):
   """Bob Manager interface for the Iris Flower Database"""
 
-  def name(self): 
+  def name(self):
     '''Returns a simple name for this database, w/o funny characters, spaces'''
     return 'wine'
 
   def files(self):
     '''Returns a python iterable with all auxiliary files needed.
-    
+
     The values should be take w.r.t. where the python file that declares the
     database is sitting at.
     '''
-    
+
     from pkg_resources import resource_filename
     raw_files = ('wine.data', 'wine.names')
     return [resource_filename(__name__, k) for k in raw_files]
@@ -50,7 +50,7 @@ class Interface(AbstractInterface):
 
   def type(self):
     '''Returns the type of auxiliary files you have for this database
-    
+
     If you return 'sqlite', then we append special actions such as 'dbshell'
     on 'bob_dbmanage.py' automatically for you. Otherwise, we don't.
 
@@ -68,7 +68,7 @@ class Interface(AbstractInterface):
 
     from argparse import SUPPRESS
     from . import __doc__ as docs
-    
+
     subparsers = self.setup_parser(parser, "Wine dataset", docs)
 
     # get the "dumplist" action from a submodule

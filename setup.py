@@ -88,13 +88,13 @@ setup(
       'bob.db': [
         'wine = bob.db.wine.driver:Interface',
       ],
-
-      },
+    },
 
     # Classifiers are important if you plan to distribute this package through
     # PyPI. You can find the complete list of classifiers that are valid and
     # useful here (http://pypi.python.org/pypi?%3Aaction=list_classifiers).
     classifiers = [
+      'Framework :: Bob',
       'Development Status :: 4 - Beta',
       'Environment :: Console',
       'Intended Audience :: Developers',

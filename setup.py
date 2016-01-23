@@ -33,7 +33,7 @@ setup(
     name='bob.db.wine',
     version=version,
     description='Wine Database for bob',
-    url='https://pypi.python.org/pypi/bob.db.wine',
+    url='https://github.com/bioidiap/bob.db.wine',
     license='GPLv3',
     author='Laurent El Shafey',
     keywords='classification, bob, bob.db, wine',

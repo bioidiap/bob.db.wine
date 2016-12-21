@@ -36,10 +36,7 @@ class Interface(AbstractInterface):
     The values should be take w.r.t. where the python file that declares the
     database is sitting at.
     '''
-
-    from pkg_resources import resource_filename
-    raw_files = ('wine.data', 'wine.names')
-    return [resource_filename(__name__, k) for k in raw_files]
+    return []
 
   def version(self):
     '''Returns the current version number from Bob's build'''

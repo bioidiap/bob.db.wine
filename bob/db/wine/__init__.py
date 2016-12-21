@@ -46,8 +46,9 @@ def data():
   """
   from .driver import Interface
   import csv
+  import pkg_resources
 
-  data = Interface().files()[0]
+  data = pkg_resources.resource_filename(__name__, 'wine.data')
 
   # The CSV file reader API changed between Python2 and Python3
   open_dict = dict(mode='rb') #python2.x

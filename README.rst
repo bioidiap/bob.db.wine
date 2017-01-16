@@ -48,5 +48,5 @@ development `mailing list`_.
 .. Place your references here:
 .. _bob: https://www.idiap.ch/software/bob
 .. _installation: https://www.idiap.ch/software/bob/install
-.. _mailing list: https://groups.google.com/forum/?fromgroups#!forum/bob-devel
+.. _mailing list: https://www.idiap.ch/software/bob/discuss
 .. _wine: http://archive.ics.uci.edu/ml/datasets/Wine

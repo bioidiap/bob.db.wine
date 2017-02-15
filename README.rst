@@ -5,8 +5,8 @@
    :target: http://pythonhosted.org/bob.db.wine/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.svg
    :target: https://www.idiap.ch/software/bob/docs/latest/bob/bob.db.wine/master/index.html
-.. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/v2.0.7/build.svg
-   :target: https://gitlab.idiap.ch/bob/bob.db.wine/commits/v2.0.7
+.. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/build.svg
+   :target: https://gitlab.idiap.ch/bob/bob.db.wine/commits/master
 .. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.wine
 .. image:: http://img.shields.io/pypi/v/bob.db.wine.svg

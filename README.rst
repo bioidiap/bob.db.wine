@@ -2,9 +2,9 @@
 .. Thu 18 Aug 11:50:31 CEST 2016
 
 .. image:: http://img.shields.io/badge/docs-stable-yellow.svg
-   :target: http://pythonhosted.org/bob.db.wine/index.html
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.wine/stable/index.html
 .. image:: http://img.shields.io/badge/docs-latest-orange.svg
-   :target: https://www.idiap.ch/software/bob/docs/latest/bob/bob.db.wine/master/index.html
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.wine/master/index.html
 .. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/build.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.wine/commits/master
 .. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/coverage.svg
@@ -13,10 +13,8 @@
    :target: https://gitlab.idiap.ch/bob/bob.db.wine
 .. image:: http://img.shields.io/pypi/v/bob.db.wine.svg
    :target: https://pypi.python.org/pypi/bob.db.wine
-.. image:: http://img.shields.io/pypi/dm/bob.db.wine.svg
-   :target: https://pypi.python.org/pypi/bob.db.wine
 .. image:: https://img.shields.io/badge/original-data--files-a000a0.png
-   :target: http://archive.ics.uci.edu/ml/datasets/Wine   
+   :target: http://archive.ics.uci.edu/ml/datasets/Wine
 
 
 ================================
@@ -33,7 +31,7 @@ It also contains the original Wine_ data files, which were downloaded from the l
 Installation
 ------------
 
-Complete Bob's `installation`_ instructions. Then, to install this pacakge,
+Complete Bob's `installation`_ instructions. Then, to install this package,
 run::
 
   $ conda install bob.db.wine

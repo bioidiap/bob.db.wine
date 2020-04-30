@@ -1,20 +1,14 @@
 .. vim: set fileencoding=utf-8 :
 .. Thu 18 Aug 11:50:31 CEST 2016
 
-.. image:: http://img.shields.io/badge/docs-stable-yellow.svg
-   :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.wine/stable/index.html
-.. image:: http://img.shields.io/badge/docs-latest-orange.svg
+.. image:: https://img.shields.io/badge/docs-available-orage.svg
    :target: https://www.idiap.ch/software/bob/docs/bob/bob.db.wine/master/index.html
-.. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/build.svg
+.. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/pipeline.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.wine/commits/master
 .. image:: https://gitlab.idiap.ch/bob/bob.db.wine/badges/master/coverage.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.wine/commits/master
 .. image:: https://img.shields.io/badge/gitlab-project-0000c0.svg
    :target: https://gitlab.idiap.ch/bob/bob.db.wine
-.. image:: http://img.shields.io/pypi/v/bob.db.wine.svg
-   :target: https://pypi.python.org/pypi/bob.db.wine
-.. image:: https://img.shields.io/badge/original-data--files-a000a0.png
-   :target: http://archive.ics.uci.edu/ml/datasets/Wine
 
 
 ================================
